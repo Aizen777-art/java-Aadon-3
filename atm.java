@@ -15,10 +15,10 @@ class Atm {
             if (bal <= 5000) {
                 System.out.println("Transaction successful! Amount withdrawn: " + bal);
             } else {
-                System.out.println("INSUFFICIENT FUNDS! Transaction declined.");
+                System.out.println("INSUFFICIENT FUNDS!");
             }
         } else {
-            System.out.println("Invalid PIN! Access denied.");
+            System.out.println("Invalid PIN! ");
         }
 
         s.close();
